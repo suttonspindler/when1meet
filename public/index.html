@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Maps Draw</title>
+    <style>
+      #map {
+        height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <!-- Load the Google Maps API asynchronously and defer execution -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA02-v0Up2fRr5KL8h1ORcJECSoUDxTlkk&libraries=drawing"
+    ></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
